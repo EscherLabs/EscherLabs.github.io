@@ -1,0 +1,12 @@
+{
+	"title": "Blog",
+	"description": "These are some blogs for EscherLabs",
+	"projects": [
+	],
+	"fetch":{
+    "host": "cberry.io",
+    "path": "/d/562526b7fb152a7059cb3435",
+    "template": "blog_item",
+    "count": 10
+	}
+}
