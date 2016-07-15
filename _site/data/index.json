@@ -1,1 +1,7 @@
-{"title":"Home","description":"The Home Page for Escher Labs","keywords":"escher labs, software, consultant, hardware"}
+{"title":"Home","description":"The Home Page for Escher Labs","keywords":"escher labs, software, consultant, hardware", "projects":[
+	{	"title": "First",
+		"content":"text"
+	},{	"title": "Second",
+		"content":"Text"
+	}
+]}

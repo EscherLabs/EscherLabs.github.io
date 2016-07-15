@@ -1,1 +1,8 @@
-{"items":[{"name":"Home","link":"./index.html","hide":""},{"name":"Projects","link":"./projects.html","hide":""},{"name":"Blog","link":"./blog.html","hide":""}]}
+{"items":[
+{"name":"Home","link":"#promo","hide":""},
+{"name":"Highlights","link":"#highlights","hide":""},
+{"name":"Sample Projects","link":"#how","hide":""},
+{"name":"Blog","link":"#sample","hide":""},
+{"name":"About Us","link":"#about","hide":""},
+{"name":"Contact","link":"#contact","hide":""}
+]}
