@@ -241,7 +241,7 @@
             <div class="row text-center">
                 <div class="contact-form col-md-6 col-sm-12 col-xs-12 col-md-offset-3">                            
 
-                    <form action="https://formspree.io/contact@escherlabs.com" method="POST" class="form">
+                    <form action="https://formspree.io/escherlabs@gmail.com" method="POST" class="form">
                         <div class="form-group name">
                             <label class="sr-only" for="name">Name</label>
                             <input name="name" id="name" type="text" class="form-control" placeholder="Name:">
@@ -252,10 +252,15 @@
                         </div><!--//form-group-->
                         <div class="form-group message">
                             <label class="sr-only" for="message">Message</label>
-                            <textarea name="message" id="message" class="form-control" rows="6" placeholder="Message:"></textarea>
+                            <textarea name="message" id="message" class="form-control" rows="6" placeholder="Message$
                         </div><!--//form-group-->
                         <button type="submit" value="Send" class="btn btn-lg btn-theme">Send Message</button>
-                    </form><!--//form-->                 
+			<input type="hidden" name="_next" value="http://www.escherlabs.com/" />
+			<input type="hidden" name="_subject" value="[EscherLabs] Home Page Form Submission" />
+			<input type="hidden" name="_cc" value="tim@escherlabs.com,adam@escherlabs.com" />
+			<input type="text" name="_gotcha" style="display:none" />
+                    </form><!--//form-->
+                
                 </div><!--//contact-form-->
             </div><!--//row-->
             <div class="text-center">
