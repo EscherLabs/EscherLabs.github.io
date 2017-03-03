@@ -68,7 +68,10 @@
         <div class="container">
             <div class="row">
                 <div class="overview col-sm-12 col-xs-12">
-                    <h2 class="title">Web Frameworks for Systems Integrators.</h2>
+                    <div class="title">
+                        <h2>Micro-App Development Just Got Real.</h2>
+                        <!--<h4 style="text-align:center;margin-bottom:20px;">(And Open Sourced!)</h4>-->
+                    </div>
                     <div class="row">
                         <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2" >
 <pre><code class="prettyprint">myData = { "first_name": "John", "name_last": "Doe", "age": 25 };
@@ -82,6 +85,18 @@ myBerryForm = {
 }</code></pre>
                         </div>
                     </div>
+                    <div class="col-sm-12 col-md-10 col-md-offset-1">
+                    <div style="text-align:center;font-size:18px;margin-top:30px;margin-bottom:30px;">
+                        <p>The Build vs. Buy debate is over, and "Enterprise Scale" app development has 
+                            been handed off to the vendors.
+                            Nevertheless, organizations still have need for custom 
+                            "<a style="color:white;text-decoration:underline;" 
+                                href="https://techcrunch.com/2016/09/11/why-app-development-is-going-micro/" target="_blank">Micro-Applications</a>"
+                            which fill the gaps those off-the-shelf systems miss.</p>
+                        <p>Escher Labs has developed a suite of open-source utilities and consulting services which make
+                            Micro-App development more accessible than ever before. </p>
+                    </div>
+                    </div>
                 </div><!--//overview-->                
             </div><!--//row-->
         </div><!--//container-->
@@ -91,14 +106,14 @@ myBerryForm = {
     <section id="highlights" class="features section">
         <div class="container">
             <div class="row">
-                <h2 class="title text-center sr-only">Highlights</h2>
+                <!--<h3 class="title text-center" style="margin-top:0px;margin-bottom:30px;color:#286da8">JavaScript Libraries</h3>-->
                 <div class="item col-md-3 col-sm-6 col-xs-12 text-center" data-toggle="modal" data-target="#berry-modal">
                     <div class="icon">
                         <i class="fa fa-check-square-o"></i>                
                     </div><!--//icon-->
                     <div class="content">
                         <h3 class="title">Berry.js</h3>
-                        <p>A robust, extensible JavaScript form library</p>  
+                        <p>A robust, extensible JavaScript form library based on JSON descriptors.</p>  
                     </div><!--//content-->               
                 </div><!--//item-->
                 <div class="item col-md-3 col-sm-6 col-xs-12 text-center" data-toggle="modal" data-target="#berry-tables-modal">
@@ -106,7 +121,7 @@ myBerryForm = {
                         <i class="fa fa-table"></i>                
                     </div><!--//icon-->
                     <div class="content">
-                        <h3 class="title">Berry Tables.js</h3>
+                        <h3 class="title">BerryTables.js</h3>
                         <p>A tabular, paginated, JavaScript library for browsing and manipulating data.</p>  
                     </div><!--//content-->               
                 </div><!--//item-->
@@ -116,16 +131,16 @@ myBerryForm = {
                     </div><!--//icon-->
                     <div class="content">
                         <h3 class="title">Cobler.js</h3>
-                        <p>A simplistic library for building dashboards, pages, and other rich / interactive content.</p>  
+                        <p>A JavaScript library for rendering and building Drag/Drop dashboards and pages with a JSON descriptor.</p>  
                     </div><!--//content-->               
                 </div><!--//item-->
                 <div class="item col-md-3 col-sm-6 col-xs-12 text-center" data-toggle="modal" data-target="#graphene-modal">
                     <div class="icon">
-                        <i class="fa fa-map-marker"></i>                
+                        <i class="fa fa-code"></i>                
                     </div><!--//icon-->
                     <div class="content">
-                        <h3 class="title">Graphene</h3>
-                        <p>An enterprise class Micro-Application development and integration platform.</p>  
+                        <h3 class="title">uAppEngine.js</h3>
+                        <p>A JavaScript runtime engine for executing Micro-Apps based on a JSON descriptor.</p>  
                     </div><!--//content-->               
                 </div><!--//item-->
             </div><!--//row-->
@@ -137,12 +152,35 @@ myBerryForm = {
     <section id="how" class="how section has-pattern">
         <div class="container">
             <div class="row">
-                <div class="content col-md-6 col-sm-6 col-xs-12 col-md-push-6 col-sm-push-6 text-center">
-                    <h2 class="title">Other Content</h2>
-                </div><!--//content-->
-                <div id="video-container" class="video-container col-md-6 col-sm-6 col-xs-12 col-md-pull-6 col-sm-pull-6">
-
-                </div><!--//video-->
+                <div class="col-sm-6" style="text-align:center;">
+                    <div class="row">
+                        <div class="col-sm-3"><i class="fa fa-check-square-o fa-5x"></i></div>
+                        <div class="col-sm-offset-6 col-sm-3"><i class="fa fa-table fa-5x"></i></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-offset-3 col-sm-6">
+                            <i class="fa fa-diamond fa-5x" style="font-size:150px;"></i>
+                            <h3>Graphene</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-3"><i class="fa fa-dashboard fa-5x"></i></div>
+                        <div class="col-sm-offset-6 col-sm-3"><i class="fa fa-code fa-5x"></i></div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <h3 style="margin-top:0px;margin-bottom:20px;text-align:center;">With Graphene, Developing and 
+                        Deploying Micro-Apps Has Never Been Easier.</h3>
+                    <div class="content" style="padding:0px;font-size:18px;">
+                        <p>Integrating Berry.js, BerryTables.js, Cobler.js, and uAppEngine.js together, 
+                            Graphene is a fully featured web-based Micro Application platform which makes
+                            developing and deploying Micro-Applications incredibly simple.  
+                        </p>
+                        <p>With built-in permissions and access management, secure RESTful web service integrations,
+                            and an out-of-the box web based IDE, development to deployment time is cut by more than 50%.  
+                        </p>
+                    </div>
+                </div>
             </div><!--//row-->
         </div><!--//container-->
     </section><!--//how-->
@@ -156,28 +194,12 @@ myBerryForm = {
                     <div class="item">
                         <h3 class="question"><i class="fa fa-question-circle"></i>How can I  ipsum dolor sit amet?</h3>
                         <p class="answer">Proin scelerisque magna ac eros aliquam aliquam id in lacus. Morbi quam tortor, consequat at orci non, vulputate volutpat libero. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean sagittis laoreet urna eu ornare. Aenean tempor, leo vel eleifend porttitor, nibh libero ultricies est, sit amet ultricies magna enim et turpis. Donec aliquam velit eu sollicitudin cursus.</p>
-                    </div><!--//item-->
-                    <div class="item">
-                        <h3 class="question"><i class="fa fa-question-circle"></i>What is the ipsum dolor sit amet quam tortor?</h3>
-                        <p class="answer">Proin scelerisque magna ac eros aliquam aliquam id in lacus. Morbi quam tortor, consequat at orci non, vulputate volutpat libero. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean sagittis laoreet urna eu ornare.</p>
-                    </div><!--//item-->
-                    <div class="item">
-                        <h3 class="question"><i class="fa fa-question-circle"></i>What's the differences between ipsum and dolor sit amet?</h3>
-                        <p class="answer">Proin scelerisque magna ac eros aliquam aliquam id in lacus. Morbi quam tortor, consequat at orci non, vulputate volutpat libero. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean sagittis laoreet urna eu ornare. Aenean tempor, leo vel eleifend porttitor. Aenean tempor, leo vel eleifend porttitor, nibh libero ultricies est.</p>
-                    </div><!--//item-->
+                    </div>
                 </div><!--//faq-col-->
                 <div class="faq-col col-md-6 col-sm-6 col-xs-12">
                     <div class="item">
                         <h3 class="question"><i class="fa fa-question-circle"></i>How does the morbi quam tortor work?</h3>
                         <p class="answer">Proin scelerisque magna ac eros aliquam aliquam id in lacus. Morbi quam tortor, consequat at orci non, vulputate volutpat libero. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean sagittis laoreet urna eu ornare.Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean sagittis laoreet urna eu ornare. Aenean tempor, leo vel eleifend porttitor, nibh libero ultricies est, sit amet ultricies magna enim et turpis. Donec aliquam velit eu sollicitudin cursus.</p>
-                    </div><!--//item-->
-                    <div class="item">
-                        <h3 class="question"><i class="fa fa-question-circle"></i>Can I ipsum dolor sit amet nascetur ridiculus?</h3>
-                        <p class="answer">Proin scelerisque magna ac eros aliquam aliquam id in lacus. Morbi quam tortor, consequat at orci non, vulputate volutpat libero. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean sagittis laoreet urna eu ornare.</p>
-                    </div><!--//item-->
-                    <div class="item">
-                        <h3 class="question"><i class="fa fa-question-circle"></i>How can I proin scelerisque magna?</h3>
-                        <p class="answer">Aenean tempor, leo vel eleifend porttitor, nibh libero ultricies est, sit amet ultricies magna enim et turpis. Donec aliquam velit eu sollicitudin cursus.Proin scelerisque magna ac eros aliquam aliquam id in lacus. Morbi quam tortor, consequat at orci non, vulputate volutpat libero. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean sagittis laoreet urna eu ornare. </p>
                     </div><!--//item-->
                 </div><!--//faq-col-->
             </div><!--//row-->
@@ -194,10 +216,18 @@ myBerryForm = {
             <div class="row">
                 <div class="content col-md-6 col-sm-6 col-xs-12 text-center">
                     <h2 class="title">About The Team</h2>
-                    <p>Escher Labs' founders are Tim Cortesi and Adam Smallcomb. Both Tim and Adam have considerable experience in the startup space, having 
-                       founded SteepleConnect (an online community SaaS application for churches), and started at the ground floor of Sonostics (a healthcare technology company).  
-                    <p>With two decades of experience in leading edge software development technologies spanning a half dozen industries and academic institutions, the team is 
-                       uniquely positioned to introduce and sell Kestrel Portal.</p>
+                    <p>With two decades of experience in leading edge software development technologies spanning defense, 
+                        healthcare, academia, and others, the team has a unique insight into the common business processes
+                        and workflows which pop up across each of these industries.</p>
+                    <p>Originally developed 
+                        for their own projects, the team has since Open-Sources their substantial catalog of libraries, 
+                        utilities, and frameworks which optimize away the vast majority of business application development tasks
+                        common to each of these industries.
+                        The end result is a suite of tools which make application development, integration, and deployment
+                        a virtually "turnkey" task.</p>
+                    <p>Working with Universities, Businesses, and other institutions, Escher Labs additionally provides
+                        custom software development, training, support, and hosting services around their suite of Open Source
+                        products.</p>
                 </div><!--//content-->
                 <div class="team col-md-5 col-sm-5 col-md-offset-1 col-sm-offset-1 col-xs-12">
                     <div class="row">
@@ -220,6 +250,11 @@ myBerryForm = {
                                 <li class="row-end"><a href="https://github.com/Cloverstone" ><i class="fa fa-github"></i></a></li>         
                             </ul>
                         </div><!--//member-->
+                        <div class="content text-center">
+                        <!--<p>Working with Universities, Businesses, and other institutions, Escher Labs additionally provides
+                        custom software development, training, support, and hosting services around their suite of Open Source
+                        products.</p>-->
+                        </div>
                     </div>
                 </div><!--//team-->
             </div><!--//row-->
@@ -263,14 +298,14 @@ myBerryForm = {
                 
                 </div><!--//contact-form-->
             </div><!--//row-->
-            <div class="text-center">
+            <!--<div class="text-center">
                  <ul class="social-icons list-inline">
                     <li><a href="https://twitter.com/escherlabs" ><i class="fa fa-twitter"></i></a></li>
                     <li><a href="#" ><i class="fa fa-facebook"></i></a></li>
                     <li><a href="#" ><i class="fa fa-linkedin"></i></a></li>
                     <li><a href="#" ><i class="fa fa-google-plus"></i></a></li>                  
-                </ul><!--//social-icons-->
-            </div><!--//row-->
+                </ul>
+            </div>-->
         </div><!--//container-->
     </section><!--//contact-->  
       
@@ -340,7 +375,7 @@ myBerryForm = {
                             <p>Berry Tables takes Berry to the next level, providing a full tabular 
                                 interface for sorting, searching, paginating, editing, updating, adding, and deleting data.</p>
                             <p>Just define your Berry form, map your CRUD functions, and your'e ready to go!</p>
-                            <a href="#"><i class="fa fa-github fa-fw"></i> &nbsp;Check out the code!</a>
+                            <a href="https://github.com/Cloverstone/berryTables"><i class="fa fa-github fa-fw"></i> &nbsp;Check out the code!</a>
 <div id="myBerryTable" style="margin-top:20px;"></div>
 <div class="row">
     <div class="col-sm-12">
