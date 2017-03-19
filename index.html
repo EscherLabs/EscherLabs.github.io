@@ -74,13 +74,13 @@
                     </div>
                     <div class="row">
                         <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2" >
-<pre><code class="prettyprint">myData = { "first_name": "John", "name_last": "Doe", "age": 25 };
+<pre><code class="prettyprint">myData = { "description": "Awesome", "license": "Open Source: MIT", "minutes": 10 };
 myBerryForm = {      
     "attributes": myData,
     "fields":[
-        {"label": "First Name"}, 
-        {"label": "Last Name", "name": "name_last"},
-        {"label": "Age", "type": "number"}
+        {"label": "Description", "options":["Awesome","Easy","Simple"]}, 
+        {"label": "License", "name": "license"},
+        {"label": "Minutes", "type": "number", "help": "Total Development Time"}
     ]
 }</code></pre>
                         </div>
@@ -216,7 +216,8 @@ myBerryForm = {
                         </p>
                     </div>
                     <div class="item">
-                        <h3 class="question"><i class="fa fa-question-circle"></i>Binghamton's <a href="https://www.binghamton.edu/discovery/resources/earlywarning.html">Early Academic Alert</a> System</h3>
+                        <!--<h3 class="question"><i class="fa fa-question-circle"></i>Binghamton's <a href="https://www.binghamton.edu/discovery/resources/earlywarning.html">Early Academic Alert</a> System</h3>-->
+                        <h3 class="question"><i class="fa fa-question-circle"></i><a href="https://www.binghamton.edu/oira/soot.html">Student Opinion of Teaching</a> System</h3>
                         <p class="answer">
                             Working inside their myBinghamton portal, Binghamton University ITS programmers utlized 
                             Berry.js in conjunction with uAppEngine.js to develop a fully interactive application for
