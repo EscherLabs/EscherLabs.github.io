@@ -74,13 +74,14 @@
                     </div>
                     <div class="row">
                         <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2" >
-<pre><code class="prettyprint">myData = { "description": "Awesome", "license": "Open Source: MIT", "minutes": 10 };
+<pre><code class="prettyprint">myData = { "description": "Awesome","license": "Open Source: MIT" };
 myBerryForm = {      
     "attributes": myData,
     "fields":[
-        {"label": "Description", "options":["Awesome","Easy","Simple"]}, 
-        {"label": "License", "name": "license"},
-        {"label": "Minutes", "type": "number", "help": "Total Development Time"}
+        {"label": "Description", 
+          "options":["Awesome","Easy","Simple"]
+        }, 
+        {"label": "License", "name": "license"}
     ]
 }</code></pre>
                         </div>
