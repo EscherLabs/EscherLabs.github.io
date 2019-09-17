@@ -6,6 +6,10 @@
  * Twitter: @3rdwave_themes
 */
 /* ======= Base ======= */
+
+.img-rounded {
+    border: 5px solid #555;
+}
 body {
   font-family: 'Lato', arial, sans-serif;
   color: #444444;
