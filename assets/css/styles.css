@@ -416,7 +416,8 @@ select {
 }
 .promo .overview h2 {
   text-align:center;
-  font-size: 30px;
+  font-size: 35px;
+  line-height:65px;
   margin-bottom: 50px;
   margin-top:50px;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
