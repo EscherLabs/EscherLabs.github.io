@@ -403,7 +403,8 @@ select {
   color: #fff;
 }
 .promo .container {
-  padding-bottom: 15px;
+    padding-bottom: 15px;
+    padding: 50px 0px;
 }
 .promo .overview {
   margin-top: 20px;
