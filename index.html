@@ -32,7 +32,7 @@
 
 <body data-spy="scroll">
     <!-- ******HEADER****** --> 
-    <header id="top" class="header navbar-fixed-top">  
+    <header id="home" class="header navbar-fixed-top">  
         <div class="container">            
             <h1 class="logo pull-left">
                 <a class="scrollto" href="#promo">
@@ -51,12 +51,10 @@
                 </div><!--//navbar-header-->            
                 <div class="navbar-collapse collapse" id="navbar-collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active nav-item sr-only"><a class="scrollto" href="#promo">Home</a></li>
-                        <li class="nav-item"><a class="scrollto" href="#highlights">Libraries</a></li>
-                        <li class="nav-item"><a class="scrollto" href="#how">Graphene Framework</a></li>
-                        <li class="nav-item"><a class="scrollto" href="#sample">Example Projects</a></li>
-                        <li class="nav-item"><a class="scrollto" href="#about">About Us</a></li>
-                        <li class="nav-item last"><a class="scrollto" href="#contact">Contact</a></li>
+                        <li class="nav-item"><a href="#products">Products</a></li>
+                        <li class="nav-item"><a href="#videos">Videos</a></li>
+                        <li class="nav-item"><a href="#about">About Us</a></li>
+                        <li class="nav-item last"><a href="#contact">Contact</a></li>
                     </ul><!--//nav-->
                 </div><!--//navabr-collapse-->
             </nav><!--//main-nav-->           
@@ -64,84 +62,68 @@
     </header><!--//header-->
     
     <!-- ******PROMO****** --> 
-    <section id="promo" class="promo section offset-header has-pattern">
+    <section id="home" class="promo section offset-header has-pattern">
         <div class="container">
             <div class="row">
-                <div class="overview col-sm-12 col-xs-12">
-                    <div class="title">
-                        <h2>IT Development Just Got Awesome.</h2>
-                        <!--<h4 style="text-align:center;margin-bottom:20px;">(And Open Sourced!)</h4>-->
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2" >
-<pre><code class="prettyprint">myData = { "description": "Awesome","license": "Open Source: MIT" };
-myBerryForm = {      
-    "attributes": myData,
-    "fields":[
-        { "label": "Description", "name": "description" 
-          "options": ["Awesome","Easy","Simple"]
-        }, 
-        { "label": "License", "name": "license" }
-    ]
-}</code></pre>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-10 col-md-offset-1">
-                    <div style="text-align:center;font-size:18px;margin-top:30px;margin-bottom:30px;">
-                        <p>The Build vs. Buy debate is over, and "Enterprise Scale" app development has 
-                            been handed off to the vendors.
-                            Nevertheless, organizations still have need for custom 
-                            "<a style="color:white;text-decoration:underline;" 
-                                href="https://techcrunch.com/2016/09/11/why-app-development-is-going-micro/" target="_blank">Micro-Applications</a>"
-                            which fill the gaps those off-the-shelf systems miss.</p>
-                        <p>Escher Labs has developed a suite of open-source utilities and consulting services which make
-                            Micro-App development more accessible than ever before. </p>
-                    </div>
-                    </div>
-                </div><!--//overview-->                
+                <div class="overview col-md-6 col-sm-12 col-xs-12">
+                    <h2 class="title">Enterprise Class Software.  <br>Open-Source Flair.</h2>
+                    <!-- <div class="summary" style="font-size:20px;">
+                        Some Text
+                    </div>     -->
+                </div><!--//overview-->
+                
+                <div class="col-md-6 col-sm-12 col-xs-12 ">
+                        <a href="https://github.com/EscherLabs/Graphene">
+                            <img src="assets/images/graphene_screenshot.png" style="width:100%;">
+                        </a>
+			        <!-- <i class="fa fa-cogs hidden-sm hidden-xs" style="text-align:center;font-size:300px;margin-top:50px;" ></i> -->
+                </div>
             </div><!--//row-->
         </div><!--//container-->
     </section><!--//promo-->
     
     <!-- ******FEATURES****** --> 
-    <section id="highlights" class="features section">
+    <section id="products" class="features section">
         <div class="container">
             <div class="row">
                 <!--<h3 class="title text-center" style="margin-top:0px;margin-bottom:30px;color:#286da8">JavaScript Libraries</h3>-->
-                <a href="https://cloverstone.github.io/Berry/" class="item col-md-3 col-sm-6 col-xs-12 text-center">
-                    <div class="icon">
-                        <i class="fa fa-check-square-o"></i>                
-                    </div><!--//icon-->
+                <a href="https://github.com/EscherLabs/Graphene" class="item col-md-3 col-sm-6 col-xs-12 text-center">
+                    <!-- <div class="icon"> -->
+                        <!-- <i class="fa fa-check-square-o"></i>  -->
+                        <img src="https://docs.escherlabs.com/assets/images/products/graphene.png" style="width:100%;">               
+                    <!-- </div> -->
                     <div class="content">
-                        <h3 class="title">Berry.js</h3>
-                        <p>A robust, extensible JavaScript form library based on JSON descriptors.</p>  
+                        <h3 class="title">Graphene</h3>
+                        <p>Graphene is a fully featured 'Micro Application' and 'Content Management' Platform with a 
+                            robust web-based IDE (Integrated Development Environment).</p>  
                     </div><!--//content-->               
                 </a><!--//item-->
-                <a href="https://cloverstone.github.io/berryTables/" class="item col-md-3 col-sm-6 col-xs-12 text-center">
-                    <div class="icon">
-                        <i class="fa fa-table"></i>                
-                    </div><!--//icon-->
+                <a href="https://github.com/EscherLabs/GrapheneAPIGateway" class="item col-md-3 col-sm-6 col-xs-12 text-center">
+                    <img src="https://docs.escherlabs.com/GrapheneAPIGateway/assets/images/api_gateway_logo.png" style="width:100%;">               
                     <div class="content">
-                        <h3 class="title">BerryTables.js</h3>
-                        <p>A tabular, paginated, JavaScript library for browsing and manipulating data.</p>  
+                        <h3 class="title">GrapheneAPIGateway</h3>
+                        <p>GrapheneAPIGateway is a standalone API-Configured toolset for generating web services for 
+                            various connected databases and external data sources. 
+                            </p>  
                     </div><!--//content-->               
                 </a><!--//item-->
-                <a href="https://cloverstone.github.io/Cobler/" class="item col-md-3 col-sm-6 col-xs-12 text-center">
-                    <div class="icon">
-                        <i class="fa fa-dashboard"></i>                
-                    </div><!--//icon-->
+                <a href="https://github.com/EscherLabs/GrapheneForms" class="item col-md-3 col-sm-6 col-xs-12 text-center">
+                    <img src="https://docs.escherlabs.com/assets/images/products/gforms.png" style="width:100%;">               
                     <div class="content">
-                        <h3 class="title">Cobler.js</h3>
-                        <p>A JavaScript library for rendering and building Drag/Drop dashboards and pages with a JSON descriptor.</p>  
+                        <h3 class="title">GrapheneForms</h3>
+                        <p>Graphene Forms is a comprehensive form library that aims to make form creation, 
+                            usage and maintenance easier for developers though a simple JSON Descriptor.
+                            </p>  
                     </div><!--//content-->               
                 </a><!--//item-->
-                <a href="https://github.com/Cloverstone/uApp/blob/master/berryApp.js" class="item col-md-3 col-sm-6 col-xs-12 text-center">
-                    <div class="icon">
-                        <i class="fa fa-code"></i>                
-                    </div><!--//icon-->
+                <a href="https://github.com/EscherLabs/GrapheneDataGrid" class="item col-md-3 col-sm-6 col-xs-12 text-center">
+                    <img src="https://docs.escherlabs.com/GrapheneDataGrid/assets/images/graphene_datagrid_logo.png" style="width:100%;">               
                     <div class="content">
-                        <h3 class="title">uAppEngine.js</h3>
-                        <p>A JavaScript runtime engine for executing Micro-Apps based on a JSON descriptor.</p>  
+                        <h3 class="title">GrapheneDataGrid</h3>
+                        <p>GrapheneDataGrid takes GrapheneForms to the next level, providing a full tabular 
+                            interface for sorting, searching, paginating, editing, updating, adding, and 
+                            deleting data.
+                            </p>  
                     </div><!--//content-->               
                 </a><!--//item-->
             </div><!--//row-->
@@ -150,55 +132,31 @@ myBerryForm = {
     </section><!--//features-->
     
     <!-- ******HOW****** --> 
-    <section id="how" class="how section has-pattern">
-        <img src="assets/images/betalogo.png" style="width:150px;height:150px;margin-top:-80px;float:right;position:absolute;right:0px;">
+    <section id="videos" class="how section has-pattern" style="padding-top:100px;">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6" style="text-align:center;">
                     <div class="row">
-                        <div class="col-sm-3 hidden-xs"><i class="fa fa-check-square-o fa-5x"></i></div>
-                        <div class="col-sm-offset-6 col-sm-3 hidden-xs"><i class="fa fa-table fa-5x"></i></div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm-offset-3 col-sm-6">
-                            <i class="fa fa-diamond fa-5x" style="font-size:150px;"></i>
+                        <div class="col-sm-12">
+                            <iframe width="100%" height="250" src="https://www.youtube.com/embed/F6g3qwCMvl8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <p>Binghamton's Open Source Portal, and Why You Should Care</p> 
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-sm-3 hidden-xs"><i class="fa fa-dashboard fa-5x"></i></div>
-                        <div class="col-sm-offset-6 col-sm-3 hidden-xs"><i class="fa fa-code fa-5x"></i></div>
+                </div>
+                <div class="col-sm-6" style="text-align:center;">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <iframe width="100%" height="250" src="https://www.youtube.com/embed/qfW0iCJOlwA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <p>Getting Started With Graphene</p> 
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-sm-6">
-                    <h3 style="margin-top:0px;margin-bottom:20px;text-align:center;">Graphene</h3>
-                    <div class="content" style="padding:0px;font-size:18px;">
-                        <p>Graphene is a fully featured Application Development and Content Management Engine 
-                            built on top of <a href="https://laravel.com/">Laravel 5</a>.</p>
-                        <p> Leveraging 
-                                <a href="https://cloverstone.github.io/Berry/">Berry</a>, 
-                                <a href="https://cloverstone.github.io/BerryTables/">BerryTables</a>, 
-                                <a href="https://cloverstone.github.io/Cobler/">Cobler</a>, 
-                                uAppEngine, 
-                                <a href="https://mustache.github.io/">Mustache</a>, and 
-                                <a href="http://getbootstrap.com">Bootstrap</a> 
-                                together into one streamlined system, Graphene makes
-                            developing and deploying Micro-Applications incredibly simple.
-                        </p>
-                        <p>With built-in permissions and access management, secure RESTful web service integrations,
-                            and an out-of-the box web based IDE, development to deployment time is faster than ever.  
-                        </p>
-                        <p><a href="https://github.com/EscherLabs/Graphene">
-                            <i class="fa fa-github" style="font-size:30px;"></i> &nbsp;Clone Graphene on GitHub!
-                            </a>
-                        </p>
-                    </div>
-                </div>
-            </div><!--//row-->
-        </div><!--//container-->
-    </section><!--//how-->
+        </div>
+    </section>
     
     <!-- ******FAQ****** --> 
-    <section id="sample" class="faq section">
+    <!-- <section id="sample" class="faq section">
         <div class="container">
             <div class="row">
                 <h2 class="title text-center">Example Projects</h2>
@@ -217,7 +175,6 @@ myBerryForm = {
                         </p>
                     </div>
                     <div class="item">
-                        <!--<h3 class="question"><i class="fa fa-question-circle"></i>Binghamton's <a href="https://www.binghamton.edu/discovery/resources/earlywarning.html">Early Academic Alert</a> System</h3>-->
                         <h3 class="question"><i class="fa fa-question-circle"></i><a href="https://www.binghamton.edu/oira/soot.html">Student Opinion of Teaching</a> System</h3>
                         <p class="answer">
                             Working inside their myBinghamton portal, Binghamton University ITS programmers utlized 
@@ -255,8 +212,8 @@ myBerryForm = {
                 <h4 class="title">More questions?</h4>
                 <a class="btn btn-lg btn-theme scrollto" href="#contact">Get in touch<i class="fa fa-arrow-circle-o-down"></i></a>
             </div>
-        </div><!--//container-->
-    </section><!--//faq-->
+        </div>
+    </section> -->
     
     <!-- ******STORY****** --> 
     <section id="about" class="story section has-pattern">
@@ -360,7 +317,7 @@ myBerryForm = {
     <!-- ******FOOTER****** --> 
     <footer class="footer">
         <div class="container">
-            <small class="copyright pull-left">Copyright &copy; 2017 <a href="#" target="_blank">Escher Labs</a></small>
+            <small class="copyright pull-left">Copyright &copy; 2019 <a href="#" target="_blank">Escher Labs, Inc.</a></small>
             <ul class="links list-inline">
 <!--
                 <li><a href="#">Terms</a></li>
